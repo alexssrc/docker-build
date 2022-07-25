@@ -9,7 +9,7 @@
 # Do not execute this script directly
 # Do not execute this script directly
 
-PATH_DIR="${HOME}/[work]/[path]/[project-dir]"
+PATH_DIR="${HOME}/work/github/docker-build"
 
 # Docker hub url
 VAR_HUB="hub.com"
