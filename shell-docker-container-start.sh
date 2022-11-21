@@ -19,4 +19,4 @@ fi
 
 # Container Start ...
 # ${1} 端口   ${2} 容器   ${3} 镜像
-docker run -d -p "${1}" --name "${2}" "${3}:${4}" >/dev/null 2>&1
+docker run -d -p "${1}" --network custom-network --name "${2}" "${3}:${4}" >/dev/null 2>&1

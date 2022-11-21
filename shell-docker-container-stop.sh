@@ -10,7 +10,7 @@
 # Do not execute this script directly
 
 # container not exist
-CONTAINER_ID=$(docker ps -qa --filter "name=${1}")
+CONTAINER_ID=$(docker ps -qa --filter "name=^/${1}$")
 if [ -z "${CONTAINER_ID}" ]; then
   echo -e "\033[33m==> [WARN]: Container [${1}] does not exist!\033[0m"
 fi

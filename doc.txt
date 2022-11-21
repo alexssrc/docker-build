@@ -1,0 +1,10 @@
+# JDK ENV
+# Mac ARM
+# export JDK8=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+# export JDK11=/Library/Java/JavaVirtualMachines/jdk-11.0.16.1.jdk/Contents/Home
+# export JDK17=/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home
+
+# Mac AMD
+# export JDK8=/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home
+# export JDK11=/Library/Java/JavaVirtualMachines/jdk-11.0.16.1.jdk/Contents/Home
+# export JDK17=/Library/Java/JavaVirtualMachines/jdk-17.0.5.jdk/Contents/Home

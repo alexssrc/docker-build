@@ -40,7 +40,7 @@ fi
 echo -e "\033[34m容器：${2}\033[0m"
 
 # Stop container
-source shell-stop-docker-container.sh "${2}"
+source shell-docker-container-stop.sh "${2}"
 
 sleep 1
 
@@ -57,7 +57,7 @@ fi
 echo -e "\033[34m标签：${tag}\033[0m"
 
 # Start container
-if ! source shell-start-docker-container.sh "${1}" "${2}" "${3}" "${tag}"; then
+if ! source shell-docker-container-start.sh "${1}" "${2}" "${3}" "${tag}"; then
   echo -e "\033[31m==> [ERROR]: Container [${2}] failed to start!\033[0m"
   exit 1
 fi
